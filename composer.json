@@ -1,0 +1,26 @@
+{
+  "name": "cryptowho/cakephp--plugin--theme-bootstrap",
+  "description": "Bootstrap Plugin for CakePHP",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2.0",
+    "cakephp/cakephp": "^3.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CryptoWho\\ThemeBootstrap\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CryptoWho\\ThemeBootstrap\\": "src"
+    }
+  }
+}
